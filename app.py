@@ -71,7 +71,7 @@ def workorders():
 
 
 
-# Create Work Order
+# Create Work Orderd
 @app.route("/create")
 def create():
 
@@ -80,4 +80,4 @@ def create():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(debug=True)
